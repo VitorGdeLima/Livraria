@@ -1,9 +1,9 @@
 public class LivroDigital : Livro
 {
-    public string FormatoArquivo { get; set; }
+    public string FormatoArquivo = "";
 
-    public LivroDigital(string titulo, string autor, string isbn, int quantidadeEmEstoque, string formatoArquivo)
-        : base(titulo, autor, isbn, quantidadeEmEstoque)
+    public LivroDigital(string titulo, string _Autor, string isbn, int quantidadeEmEstoque, string formatoArquivo)
+        : base(titulo, _Autor, isbn, quantidadeEmEstoque)
     {
         FormatoArquivo = formatoArquivo;
     }

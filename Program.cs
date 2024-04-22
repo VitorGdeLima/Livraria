@@ -1,4 +1,6 @@
-﻿namespace Livraria;
+﻿using System.Runtime.InteropServices;
+
+namespace Livraria;
 class Program
 {
 static void Main()
