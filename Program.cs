@@ -2,7 +2,7 @@
 
 namespace Livraria;
 class Program
-  //Alunos: Vitor, Luiz Felipe, Thiago, Cristyan
+  //Alunos: Vitor Guilherme de Lima
 {
 static void Main()
 {
